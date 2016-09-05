@@ -1,18 +1,18 @@
 # testive_portfolio
 
-# school_analytics.pdf, # school_analytics_extras.pdf
+# school_analytics.pdf, school_analytics_extras.pdf
 
 School Analytics, Mockup for Testive, Inc.
 
 This is a high fidelity mockup I created while working as a UX/UI designer at Testive, Inc. The mockup was for a new product intended for teachers working with high school students preparing for the SAT/ACT. The purpose of the dashboard was to give teachers the ability to track progress based on a variety of group breakdowns: All students, students from a certain year, and individual students. 
 
-The high fidelity mockup was created using Adoble Illustrator. It followed a series of low-fidelity mockups (paper and pencil drawings) and feedback from a variety of sources, including Testive coaches (who worked with individual students) and Testive’s Director of School Partnerships, who worked closely with school administrators and teachers. 
+The high fidelity mockup was created using Adobe Illustrator. It followed a series of low-fidelity mockups (paper and pencil drawings) and feedback from a variety of sources, including Testive coaches (who worked with individual students) and Testive’s Director of School Partnerships, who worked closely with school administrators and teachers. 
 
 Here are some notes to accompany the mockup (school_analytics.pdf):
 
 UI elements: The alternating white and navy rows are consistent with Testive’s style guide, as are the exact hex values of navy and orange, the border-radius of the buttons and their all caps text, the square radio buttons, and the Testive logo. 
 
-“Pixel Perfect:” This mockup was not intended to be pixel perfect since this was not in the scope of the project or a common practice at Testive (In other words, Testive was a typical startup with a fast-paced environment). This means that there are minor spacing and size inconsistenices that were cleaned up during the development phase.
+“Pixel Perfect:” This mockup was not intended to be pixel perfect since this was not in the scope of the project or a common practice at Testive (In other words, Testive was a typical startup with a fast-paced environment). This means that there are minor spacing and size inconsistencies that were cleaned up during the development phase.
  
 Nav Section: The navbar shows the Testive logo, the name of the school, and a place to logout. 
  
@@ -22,7 +22,7 @@ The top navy row prompts the user to type the name of the custom group. There ar
 
 Future Improvement: 
 
-        Reduce size of drop-down triangle next to “SAT” inthe row titles
+        Reduce size of drop-down triangle next to “SAT” in the row titles
         
         Use orange backgrounds and white text for selected buttons (active states)
         
