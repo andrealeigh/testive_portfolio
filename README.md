@@ -1,16 +1,16 @@
 # testive_portfolio
 
-This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups, two wireframes in coded in HTML/SCSS, and two screenshots of small projects I made within the Testive MVC framework. Within this README are notes accompanying each project.
+This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups, two wireframes in coded in HTML/SCSS, and two screenshots of small projects I made within Testive. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
 
-# school_landing_page.pdf
+# School Landing Page, Mockup for Testive, Inc.
 
-School Landing Page, Mockup for Testive, Inc.
+[School Landing Page Mockup](high_fidelity_mockups/school_landing_page.pdf)
 
-This is a high fidelity mockup I created while working as a UX/UI designer at Testive, Inc. The mockup was for a custom and dynamic landing page for schools. The primary purpose of this page was to help students sign up to use Testive’s free SAT/ACT software, and the secondary purpose was to help teachers and their students become more familiar with Testive and their paid coaching program.  
+This mockup was for a custom landing page for schools. The primary purpose of this page was to help students sign up to use Testive’s free SAT/ACT software, and the secondary purpose was to help teachers and their students become more familiar with Testive and their paid coaching program.  
 
 The high fidelity mockup was created using Adobe Illustrator. It followed a series of low-fidelity mockups (paper and pencil drawings) and feedback from Testive’s Director of School Partnerships, who worked closely with school administrators and teachers. 
 
-Here are some notes to accompany the mockup (school_landing_page.pdf):
+Additional notes:
 
 UI elements: The alternating white and navy rows are consistent with Testive’s style guide, as are the exact hex values of navy and orange, the border-radius of the buttons and their all caps text,  and the Testive logo. 
 
@@ -35,15 +35,16 @@ Future Improvement:
         Reduce the number of form fields, if possible
         In Coaching Info Section, change font-weight of text from thin to regular
 
-# school_analytics.pdf, school_analytics_extras.pdf
 
-School Analytics, Mockup for Testive, Inc.
+# School Analytics, Mockup for Testive, Inc.
 
-This is a high fidelity mockup I created while working as a UX/UI designer at Testive, Inc. The mockup was for a new product intended for teachers working with high school students preparing for the SAT/ACT. The purpose of the dashboard was to give teachers the ability to track progress based on a variety of group breakdowns: All students, students from a certain year, and individual students. 
+[School Analytics Mockup](high_fidelity_mockups/school_analytics.pdf)
+
+This mockup was for a new product intended for teachers working with high school students preparing for the SAT/ACT. The purpose of the dashboard was to give teachers the ability to track progress based on a variety of group breakdowns: All students, students from a certain year, and individual students. 
 
 The high fidelity mockup was created using Adobe Illustrator. It followed a series of low-fidelity mockups (paper and pencil drawings) and feedback from a variety of sources, including Testive coaches (who worked with individual students) and Testive’s Director of School Partnerships, who worked closely with school administrators and teachers. 
 
-Here are some notes to accompany the mockup (school_analytics.pdf):
+Additional notes:
 
 UI elements: The alternating white and navy rows are consistent with Testive’s style guide, as are the exact hex values of navy and orange, the border-radius of the buttons and their all caps text, the square radio buttons, and the Testive logo. 
 
