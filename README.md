@@ -12,28 +12,29 @@ The high fidelity mockup was created using Adobe Illustrator. It followed a seri
 
 Additional notes:
 
-UI elements: The alternating white and navy rows are consistent with Testive’s style guide, as are the exact hex values of navy and orange, the border-radius of the buttons and their all caps text,  and the Testive logo. 
+* UI elements: The alternating navy and white rows are consistent with Testive’s style guide, as are the hex values of navy and orange, the border-radius of the buttons and their all caps text,  and the Testive logo. 
 
-“Pixel Perfect:” This mockup was not intended to be pixel perfect since this was not in the scope of the project or a common practice at Testive (In other words, Testive was a typical startup with a fast-paced environment). This means that there are minor spacing and size inconsistencies that were cleaned up during the development phase.
+* “Pixel Perfect:” This mockup was not intended to be pixel perfect since this was not in the scope of the project or a common practice at Testive. This means that there are minor spacing and size inconsistencies that were cleaned up during the development phase.
 
-Nav Section: The navbar shows the Testive logo, a link to the Testive  software login page, and a link to a contact page. 
+* Sections:
+  * Nav Section: The navbar shows the Testive logo, a link to the Testive  software login page, and a link to a contact page. 
 
-Signup Section: The hero of the page features a large CTA for students and teachers to create a free account. A student submitting the “sign up” button would be redirected to Testive’s student platform, and a teacher would be send to Testive’s School Analytics platform (see school_analytics.pdf).
+  * Hero with Signup Form: 
+    * Features a large CTA for students and teachers to create a free account. A student submitting the “sign up” button would be redirected to Testive’s student platform, and a teacher would be sent to Testive’s School Analytics platform (see [School Analytics Mockup](high_fidelity_mockups/school_analytics.pdf)).
 
-The map in the background is meant to communicate the message that a school was joining a wider Testive network that spanned across the country. It also visually united the first two rows in the sections (the navbar and the hero) as well as the two columns in the hero (the large text on the left and the form on the right). 
+    * The map in the background is meant to communicate the message that a school was joining a wider Testive network that spanned across the country. It also visually united the first two rows in the sections (the navbar and the hero) as well as the two columns in the hero (the large text on the left and the form on the right). 
 
-The UI of the form fields established new style guidelines. Formerly, form field were compassed in a rectangle with a 0% opacity and an orange border. In the mockup, I removed the rectangle and incorporated the form field into the design. 
+    * The UI of the form fields established new style guidelines. Formerly, form field were encompassed in a rectangle with a 0% opacity background and an orange border. In the mockup, I removed the rectangle and incorporated the form field into the overall design of the hero. 
 
-Software Info Section: This section educates the user about Testive’s software with three informational bullet points and a short video. 
+  * Software Info: Educates the user about Testive’s software with three informational bullet points and a short video. 
 
-Prepping for Free Section: This section features three informational bullet points illustrated by three icons. The rabbit icon is a custom icon I made to this  project; the other two are icons I picked from The Noun Project. 
+  * Prepping for Free: Features three informational bullet points illustrated by three icons. The rabbit icon is a custom icon I made for this  project; the other two are icons I picked from The Noun Project. 
 
-Coaching Info Section: This section is encouraging the user to explore paid coaching programs through Testive. The “learn more” button links to another page describing Testive’s coaching program in detail, and the text below offers a discount to students at this school.
+  * Coaching Info: Encourages the user to explore paid coaching programs through Testive. The “learn more” button links to another page describing Testive’s coaching program in detail, and the text below offers a discount to students at this school.
 
-Future Improvement:
-
-        Reduce the number of form fields, if possible
-        In Coaching Info Section, change font-weight of text from thin to regular
+* Future Improvement:
+  * Reduce the number of form fields, if possible
+  * In Coaching Info Section, change font-weight of text from thin to regular
 
 
 # School Analytics, Mockup for Testive, Inc.
@@ -46,26 +47,38 @@ The high fidelity mockup was created using Adobe Illustrator. It followed a seri
 
 Additional notes:
 
-UI elements: The alternating white and navy rows are consistent with Testive’s style guide, as are the exact hex values of navy and orange, the border-radius of the buttons and their all caps text, the square radio buttons, and the Testive logo. 
+* UI elements: The alternating white and navy rows are consistent with Testive’s style guide, as are the hex values of navy and orange, the border-radius of the buttons and their all caps text, the square radio buttons, and the Testive logo. 
 
-“Pixel Perfect:” This mockup was not intended to be pixel perfect since this was not in the scope of the project or a common practice at Testive (In other words, Testive was a typical startup with a fast-paced environment). This means that there are minor spacing and size inconsistencies that were cleaned up during the development phase.
+* “Pixel Perfect:” This mockup was not intended to be pixel perfect since this was not in the scope of the project or a common practice at Testive. This means that there are minor spacing and size inconsistencies that were cleaned up during the development phase.
  
-Nav Section: The navbar shows the Testive logo, the name of the school, and a place to logout. 
+* Sections:
+  * Navbar: Shows the Testive logo, the name of the school, and a place to logout. 
  
-Sidebar: The sidebar shows which group of students is currently being rendered in the data sections. In the mockup example, the data is filtered to students who are graduating in 2016. The user can also quickly select all students (”all”) or a different year. Clicking on the person icon at the bottom renders a modal that allows the user to choose a specific student (in school_analytics_extras.pdf, top right screenshot). Additionally, the arrow on the top row expands the sidebar (in school_analytics_extras.pdf, top left screenshot). In the expanded sidebar, a new row appears at the bottom, allowing the user to create a custom group of students. Once “create a new group” is selected, a modal appears (in school_analytics_extras.pdf, bottom left screenshot).
+  * Sidebar: 
+    * Shows which group of students is currently being rendered in the data sections. In the mockup example, the data is filtered to students who are graduating in 2016. The user can also quickly select all students (”all”) or a different year. 
+    
+    * Clicking on the person icon at the bottom renders a modal that allows the user to choose a specific student (in [School Analytics Mockup](high_fidelity_mockups/school_analytics_extras.pdf), top right screenshot). 
+    
+    * The arrow on the top row expands the sidebar (in [School Analytics Mockup](high_fidelity_mockups/school_analytics_extras.pdf), top left screenshot). In the expanded sidebar, a new row appears at the bottom, allowing the user to create a custom group of students. Once “create a new group” is selected, a modal appears (in [School Analytics Mockup](high_fidelity_mockups/school_analytics_extras.pdf), bottom left screenshot).
 
-The top navy row prompts the user to type the name of the custom group. There are two ways to search for students: with the search bar, or by scrolling an alphabetical list of all students or students in a certain year. After more than one student is selected, the user clicks the “review” button, and the modal flips from right to left, revealing the review state (in school_analytics_extras.pdf, bottom right screenshot). Here, the user can review the name and student list of the custom group. The user can either click “edit,” which flips the list back to the first modal, or save, which saves the new group.
+    * The top navy row prompts the user to type the name of the custom group. There are two ways to search for students: with the search bar, or by scrolling an alphabetical list of all students or students in a certain year. After more than one student is selected, the user clicks the “review” button, and the modal flips from right to left, revealing the review state (in school_analytics_extras.pdf, bottom right screenshot). Here, the user can review the name and student list of the custom group. The user can either click “edit,” which flips the list back to the first modal, or save, which saves the new group.
+    
+  * Data Sections: The three main data sections are Performance, Questions Practiced, and Student Engagement. Each section can show SAT or ACT data by clicking the dropdown arrow at the top of each section. 
 
-Future Improvement: 
+    * Performance: Shows scores that can viewed in a variety of ways depending on which buttons are selected below the graph and whether “current” or “over time” is selected. In the mockup example, the current math scores are shown, as indicated by the light blue “math” button, the orange “current” radio button, and the title above the graph that changes depending on what is selection. 
 
-        Reduce size of drop-down triangle next to “SAT” in the row titles
-        
-        Use orange backgrounds and white text for selected buttons (active states)
-        
-        Do not use orange for non-selected or non-button backgrounds, or for “data” in the line graph in the “Questions Practiced” section
-        
-        Give the nav a little more context (like “George Walton’s Analytics Dashboard”)
-        
-        Reverse the direction of the  arrows on the sidebar so that it makes more sense
+    * Questions Practiced: Shows the number of questions being practiced over time in a variety of ways depending on which buttons are selected below the graph. In the mockup example, the graph shows how many math questions are being practiced. 
+    * Student Engagement: Shows which students have established a baseline score (i.e., which students have taken an initial full practice test), and which students have practiced in the past week. The two large lists shows the names of individual students and the percentage of total students in the selected category fall into YES or NO. The pie charts also give a quick visual of percentage of students in YES or NO. In the mockup example, 50% of students graduating in 2016 have established a baseline score, while 74% have answered practice questions in the past week. (The percentage in the right student list does not match the percentage in the bottom pie chart. See “Future Improvement” for more examples of how this mockup could be better.) 
 
-        Create an extra row for the “collapse” arrow on the expanded sidebar
+* Future Improvement: 
+  * Reduce size of drop-down triangle next to “SAT” in the row titles
+        
+  * Use orange backgrounds and white text for selected buttons (active states)
+        
+  * Do not use orange for non-selected or non-button backgrounds, or for “data” in the line graph in the “Questions Practiced” section
+        
+  * Give the nav a little more context (like “George Walton’s Analytics Dashboard”)
+        
+  * Reverse the direction of the  arrows on the sidebar so that it makes more sense
+
+  * Create an extra row for the “collapse” arrow on the expanded sidebar
