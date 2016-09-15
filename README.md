@@ -22,7 +22,7 @@ Additional notes:
   * Hero with Signup Form: 
     * Features a large CTA for students and teachers to create a free account. A student submitting the “sign up” button would be redirected to Testive’s student platform, and a teacher would be sent to Testive’s School Analytics platform (see [School Analytics Mockup](high_fidelity_mockups/school_analytics.pdf)).
 
-    * The map in the background is meant to communicate the message that a school was joining a wider Testive network that spanned across the country. It also visually united the first two rows in the sections (the navbar and the hero) as well as the two columns in the hero (the large text on the left and the form on the right). 
+    * The map in the background, from The Noun Project, is meant to communicate the message that a school was joining a wider Testive network that spanned across the country. It also visually united the first two rows in the sections (the navbar and the hero) as well as the two columns in the hero (the large text on the left and the form on the right). 
 
     * The UI of the form fields established new style guidelines. Formerly, form field were encompassed in a rectangle with a 0% opacity background and an orange border. In the mockup, I removed the rectangle and incorporated the form field into the overall design of the hero. 
 
@@ -36,6 +36,21 @@ Additional notes:
   * Reduce the number of form fields, if possible
   * In Coaching Info Section, change font-weight of text from thin to regular
 
+# School Landing Page, Wireframe for Testive, Inc.
+
+[School Landing Page Mockup](wireframes/school_landing_page.html)
+
+This wireframe was intended as version 1 of the HTML/SCSS associated with the School Landing Page Mockup (please read the section above for more context of the School Landing Page Mockup). 
+
+Additional notes:
+
+* This wireframe is not responsive. The landing page would only be accessed on school computers and not on smaller handheld devices. 
+
+* After the form is submitted in the hero, a thank you message appears in place of the "sign up" button. In this wireframe, the signup form is not yet functional.
+ 
+* In Software Info section, the gray box is a placeholder for a video that was not yet created. The size the gray box was based on the sizes of similar videos featured on the Testive website. 
+
+* In the Coaching Info section, the "learn more" button does not linked to another page because it did not exist at this time. 
 
 # School Analytics, Mockup for Testive, Inc.
 
