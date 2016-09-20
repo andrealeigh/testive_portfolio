@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Testive Home</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css' />
+        <link href="css/reset.css" rel="stylesheet" />
+        <link href="css/stylesheet.css" rel="stylesheet" />
+    </head>
+
+    <body class="testive-home">
+
+        <nav class="home-nav">
+            <div class="home-nav-links">
+                <a href="/" title="Testive"><img class="home-testive-logo" src="images/testive-logo.svg" alt="Testive" /></a>
+                <div class="home-nav-links-right">
+                    <a href="/get-started/" class="home-nav-link" title="get started">Get Started</a>
+                    <a href="/partnerships/" class="home-nav-link" title="school partnerships">School Partnerships</a>
+                    <a href="/testimonials-and-results/" class="home-nav-link" title="testimonials">Testimonials</a>
+                    <a href="/pricing/" class="home-nav-link" title="pricing">Pricing</a>
+                    <a href="http://app.testive.com/login/" class="home-nav-link" title="login or sign up">Login/Sign Up</a>
+                    <a href="#footer" class="home-nav-link" title="get in touch">Get in Touch</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="home-hero">
+            <h1 class="home-hero-header">What if you didn&rsquo;t have to stress <span class="home-bold-subheader">about the SAT/ACT?</span></h1>
+        </section>
+
+        <section class="home-motivation-section">
+            <h2 class="home-motivation-header">Testive will show you <span class="home-motivation-header-bold">the smart way to prep</span></h2>
+            <div class="home-motivation-content">
+                <div class="home-motivation-placeholder"></div>
+                <div class="home-motivation-copy">
+                    <h2 class="home-motivation-copy-testimonial-bold">&ldquo;Testive&rsquo;s online learning approach with coaching inspired me to do better. I felt like I had a team cheering me on.</h2>
+                    <h3 class="home-motivation-copy-testimonial">Having immediate feedback with texts and emails lightened the mood and gave me the motivation to strive higher. My coach, Meg, lifted my spirits through the dreadful task of test taking. Thanks Testive! &rdquo;</h3>
+                    <h4 class="home-motivation-copy-tagline">&mdash; Jacklyn D. increased her SAT score by 160 points</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-resources-section">
+            <h2 class="home-resources-header">Free Resources</h2>
+            <div class="home-resources-content-row">
+                <div class="home-resources-content">
+                    <img src="images/ebook-icon.svg" class="home-resources-icon-ebook" alt="e-book" />
+                    <h4 class="home-resources-content-header">E-book: The New SAT</h4>
+                    <a href="http://try.testive.com/new-sat-ebook-landing-page/" class="home-resources-content-button" title="e-book button">Download</a>
+                </div>
+                <div class="home-resources-content">
+                    <img src="images/desktop-icon.svg" class="home-resources-icon-webinar" alt="webinar" />
+                    <h4 class="home-resources-content-header">Webinar: Mastering the SAT/ACT</h4>
+                    <a href="http://try.testive.com/6-secrets-wj/" class="home-resources-content-button" title="webinar button">Sign Up</a>
+                </div>
+                <div class="home-resources-content">
+                    <img src="images/prc-icon.svg" class="home-resources-icon-article" alt="article" />
+                    <h4 class="home-resources-content-header">The Great Debate: SAT or ACT?</h4>
+                    <a href="https://www.testive.com/parent-resources/new-sat-or-act-that-is-the-question/" class="home-resources-content-button" title="article button">Get Advice</a>
+                </div>
+            </div>
+            <div class="home-email-cta">
+                <div class="home-email-cta-blurb-paragraph">
+                    <h3 class="home-email-blurb-line">Stay in the loop!</h3>
+                    <h3 class="home-email-blurb-line">Sign up for tips, special offers and helpful reminders.</h3>
+                </div>
+                <div class="home-email-cta-form">
+                    <h5 class="home-email-input-title">email *</h5>
+                    <div class="home-dummy-input"></div>
+                    <h5 class="home-email-input-title">student grad year *</h5>
+                    <div class="home-dummy-input"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-problem-solver-section">
+            <h2 class="home-problem-solver-header">Let&rsquo;s play a game called <span class="home-problem-solver-header-bold">&ldquo;The Problems with Test Prep&rdquo;</span></h2>
+            <div class="home-problem-solver-widget-container">
+                <div class="widget">
+                    <div class="home-problem-solver-card home-card-front">
+                        <h3 class="home-problem-solver-card-header-front">Cost</h3>
+                        <p class="home-problem-solver-card-text-front">&ldquo;Test prep isn&rsquo;t really in my budget. I don&rsquo;t think I can afford a coach.&rdquo;</p>
+                        <button class="home-card-button-front" onclick="flip(event)" title="solution">Solution</button>
+                    </div>
+                    <div class="home-problem-solver-card home-card-back">
+                        <h3 class="home-problem-solver-card-header-back">Test Prep Is an Investment.</h3>
+                        <p class="home-problem-solver-card-text-back">Higher scores &rarr; more opportunity. Check out our variety of prep plans (and free software!) to learn more:</p>
+                        <a href="/pricing/" class="home-card-button-back" title="go">View Pricing</a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="home-problem-solver-card home-card-front">
+                        <h3 class="home-problem-solver-card-header-front">Effectiveness</h3>
+                        <p class="home-problem-solver-card-text-front">&ldquo;My son already did a prep course and his score didn&rsquo;t improve.&rdquo;</p>
+                        <button class="home-card-button-front" onclick="flip(event)" title="solution">Solution</button>
+                    </div>
+                    <div class="home-problem-solver-card home-card-back">
+                        <h3 class="home-problem-solver-card-header-back">Testive Delivers Results.</h3>
+                        <p class="home-problem-solver-card-text-back-quote">&ldquo; I wouldn&rsquo;t have practiced as much if I didn&rsquo;t have a coach helping me. &rdquo; </p>
+                        <p class="home-problem-solver-card-text-back">Sign up for a free coaching demo:</p>
+                        <a href="http://try.testive.com/info-session/?utm_source=homepage&utm_medium=web&utm_campaign=flipcard" class="home-card-button-back" title="sign up">Sign Up</a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="home-problem-solver-card home-card-front">
+                        <h3 class="home-problem-solver-card-header-front">Time Commitment</h3>
+                        <p class="home-problem-solver-card-text-front">&ldquo;My daughter is too busy to fit test prep into her schedule.&rdquo;</p>
+                        <button class="home-card-button-front" onclick="flip(event)" title="solution">Solution</button>
+                    </div>
+                    <div class="home-problem-solver-card home-card-back">
+                        <h3 class="home-problem-solver-card-header-back">Testive Is Made to Order.</h3>
+                        <p class="home-problem-solver-card-text-back">Coaches work with students to schedule meetings and study sessions. Talk to us to learn more:</p>
+                        <a href="#" class="home-card-button-back" title="schedule a call">Schedule a Call</a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="home-problem-solver-card home-card-front">
+                        <h3 class="home-problem-solver-card-header-front">SAT and ACT?</h3>
+                        <p class="home-problem-solver-card-text-front">&ldquo;I think my daughter should prep for both the SAT and ACT.&rdquo;</p>
+                        <button class="home-card-button-front" onclick="flip(event)" title="solution">Solution</button>
+                    </div>
+                    <div class="home-problem-solver-card home-card-back">
+                        <h3 class="home-problem-solver-card-header-back">Testive Says...Choose!</h3>
+                        <p class="home-problem-solver-card-text-back">U.S. universities accept either test; don&rsquo;t waste time prepping for two! Learn which test is right for you:</p>
+                        <a href="https://www.testive.com/parent-resources/new-sat-or-act-that-is-the-question/" class="home-card-button-back" title="Schedule a Call">Get Advice</a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="home-problem-solver-card home-card-front">
+                        <h3 class="home-problem-solver-card-header-front">Motivation</h3>
+                        <p class="home-problem-solver-card-text-front">&ldquo;Studying for the SAT is really, really boring.&rdquo;</p>
+                        <button class="home-card-button-front" onclick="flip(event)" title="solution">Solution</button>
+                    </div>
+                    <div class="home-problem-solver-card home-card-back">
+                        <h3 class="home-problem-solver-card-header-back">You&rsquo;re Not Alone.</h3>
+                        <p class="home-problem-solver-card-text-back-quote">&ldquo; My daughter actually enjoyed tracking her weekly progress. &rdquo; </p>
+                        <p class="home-problem-solver-card-text-back">Talk to us to learn more:</p>
+                        <a href="#" class="home-card-button-back" title="go">Schedule a Call</a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="home-problem-solver-card home-card-front">
+                        <h3 class="home-problem-solver-card-header-front">Personalization</h3>
+                        <p class="home-problem-solver-card-text-front">&ldquo;Private in-person tutoring is the best way to get personalized help.&rdquo;</p>
+                        <button class="home-card-button-front" onclick="flip(event)" title="solution">Solution</button>
+                    </div>
+                    <div class="home-problem-solver-card home-card-back">
+                        <h3 class="home-problem-solver-card-header-back">Coaching + Software = Success</h3>
+                        <p class="home-problem-solver-card-text-back-quote">&ldquo; Because of Testive, I raised my score a little over 300 points. &rdquo; </p>
+                        <p class="home-problem-solver-card-text-back">We can prove it:</p>
+                        <a href="/testimonials-and-results/" class="home-card-button-back" title="go">Results Page</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="home-footer">
+            <h2 class="home-news-icons-header">Testive Was Featured In...</h2>
+            <div class="home-news-icons-row">
+                <a href="http://slice.mit.edu/2015/12/15/testive-quirky-videos-become-high-impact-coaching/" title="MIT"><img class="home-news-icons home-news-icons-mit" src="images/logo-mit.svg" alt="MIT" /></a>
+                <a href="http://www.betaboston.com/news/2015/08/13/techstars-alum-testive-adds-1-15m-to-boost-college-test-prep-service/" title="boston globe"><img class="home-news-icons home-news-icons-boston-globe" src="images/logo-boston-globe.svg" alt="Boston Globe" /></a>
+                <a href="http://www.fastcompany.com/3049782/tech-forecast/this-sat-prep-platform-works-on-motivation-as-much-as-content-knowledge" title=""><img class="home-news-icons home-news-icons-fast-company" src="images/logo-fast-company.svg" alt="Fast Company" /></a>
+                <a href="http://blogs.wgbh.org/on-campus/2014/4/16/sat-changes-shake-test-prep-industry/" title=""><img class="home-news-icons home-news-icons-npr" src="images/logo-npr.svg" alt="NPR" /></a>
+                <a href="https://www.testive.com/wp-content/uploads/2015/09/WallStreetJournal9.27.15.pdf" title=""><img class="home-news-icons home-news-icons-wsj" src="images/logo-wsj.svg" alt="WSJ" /></a>
+            </div>
+            <div class="home-contact-us-row">
+                <div class="home-contact-us-words">
+                    <h3 class="home-contact-us-blurb">Don&rsquo;t stress!</h3>
+                    <h3 class="home-contact-us-blurb">Contact Us.</h3>
+                </div>
+                <div class="home-contact-us-options">
+                    <div class="home-contact-us-mainline">Call Now: (888) 960-8378</div>
+                    <a href="#" class="home-contact-us-button" title="schedule a call">Schedule a Call</a>
+                    <a href="#" class="home-contact-us-button" title="chat online">Chat Online Now</a>
+                </div>
+            </div>
+            <div class="home-sitemap">
+                <div class="home-site-map-column">
+                    <h5 class="home-site-map-header">About Us</h5>
+                    <ul>
+                        <li><a href="/about/" class="home-site-map-link" title="our story">Our Story</a></li>
+                        <li><a href="/parent-resources/testive-coach-bios/" class="home-site-map-link" title="coaches">Coaches</a></li>
+                        <li><a href="http://testive.workable.com" class="home-site-map-link" title="careers">Careers</a></li>
+                        <li><a href="/press/" class="home-site-map-link" title="press">Press</a></li>
+                        <li><a href="/privacy-policy/" class="home-site-map-link" title="privacy policy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="home-site-map-column">
+                    <h5 class="home-site-map-header">Test Prep</h5>
+                    <ul>
+                        <li><a href="/prep-software/" class="home-site-map-link" title="free SAT/ACT prep">Free SAT/ACT Prep</a></li>
+                        <li><a href="/coaching/" class="home-site-map-link" title="SAT/ACT coaching">SAT/ACT Coaching</a></li>
+                        <li><a href="/testimonials-and-results/" class="home-site-map-link" title="results">Results</a></li>
+                        <li><a href="/get-started/" class="home-site-map-link" title="get started">Get Started</a></li>
+                        <li><a href="/pricing/" class="home-site-map-link" title="pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="home-site-map-column">
+                    <h5 class="home-site-map-header">Advice</h5>
+                    <ul>
+                        <li><a href="/parent-resources/new-sat-starters-guide/" class="home-site-map-link" title="SAT guide">SAT Guide</a></li>
+                        <li><a href="/parent-resources/act-starters-guide/" class="home-site-map-link" title="ACT guide">ACT Guide</a></li>
+                        <li><a href="/parent-resources/new-sat-or-act-that-is-the-question/" class="home-site-map-link" title="SAT vs. ACT">SAT vs. ACT</a></li>
+                        <li><a href="/parent-resources/" class="home-site-map-link" title="">More Resources</a></li>
+                        <li><a href="http://blog.testive.com" class="home-site-map-link" title="">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="home-site-map-column">
+                    <h5 class="home-site-map-header">Contact Us</h5>
+                    <ul>
+                        <li><a href="/contact/" class="home-site-map-link" title="contact">Contact</a></li>
+                        <li><a href="/partnerships/" class="home-site-map-link" title="school partnerships">School Partnerships</a></li>
+                        <li><a href="/parent-resources/frequently-asked-questions/" class="home-site-map-link" title="F.A.Q.">F.A.Q.</a></li>
+                    </ul>
+                    <div class="home-site-map-social-media">
+                        <a href="https://www.facebook.com/testive" class="home-site-map-social-media-link" title="facebook"><img src="images/logo-fb.svg" alt="facebook" style="width: 20px;" /></a>
+                        <a href="https://twitter.com/testive" class="home-site-map-social-media-link" title="twitter"><img src="images/logo-twitter.svg" alt="twitter" style="width: 24.5px;" /></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script>
+            var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+            if(isSafari) {
+                $('.widget').removeClass('widget').addClass('safari-home-problem-solver-widget');
+            }
+            else {
+                $('.widget').removeClass('widget').addClass('home-problem-solver-widget');
+            }
+            function flip(event) {
+                $(event.target).parent().parent().toggleClass('flipped')
+            }
+        </script>
+    </body>
+
+</html>
