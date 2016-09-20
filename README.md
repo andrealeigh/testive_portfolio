@@ -97,3 +97,18 @@ Additional notes:
 * In Software Info section, the gray box is a placeholder for a video that was not yet created. The size the gray box was based on the sizes of similar videos featured on the Testive website. 
 
 * In the Coaching Info section, the "learn more" button does not linked to another page because it did not exist at this time. 
+
+# School Home Page, Wireframe for Testive, Inc.
+
+[School Home Page Wireframe](wireframes/school_home_page/index.html)
+
+This wireframe was intended as version 1 of the HTML/SCSS associated with Testive's new home page. 
+
+Additional notes:
+
+* Certain sections of the wireframe are not responsive, such as the navbar and the email form row within "Free Resources." The navbar in this wireframe was a placeholder for a responsive widget on Wordpress (where the Testive website was hosted). The media queries for the row with the form was also not fleshed out due to a pending decision of whether the form would be custom built or a Hubspot widget. 
+
+* Under "Testive will show you the smart way to prep," the navy box was a placeholder for video not yet created. The size the navy box was based on the sizes of similar videos featured on the Testive website. 
+
+* Under "Let's play a game called 'The Problems with Test Prep,'" the functionality of the flip cards were built with Javascript. I paired with a front-end developer to create this functionality. 
+
