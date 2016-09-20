@@ -1,4 +1,4 @@
-# testive_portfolio
+# Testive Portfolio
 
 This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups and two wireframes in coded in HTML/SCSS. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
 
@@ -102,7 +102,7 @@ Additional notes:
 
 [School Home Page Wireframe](wireframes/school_home_page/index.html)
 
-This wireframe was intended as version 1 of the HTML/SCSS associated with Testive's new home page. 
+This wireframe was intended as version 1 of the HTML/SCSS associated with Testive's new home page. It was an overhaul of the current home page and went through multiple pen/paper and high fidelity mockups.
 
 Additional notes:
 
