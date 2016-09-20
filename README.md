@@ -1,6 +1,6 @@
 # testive_portfolio
 
-This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups, two wireframes in coded in HTML/SCSS, and two screenshots of small projects I made within Testive. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
+This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups and two wireframes in coded in HTML/SCSS. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
 
 # School Landing Page, Mockup for Testive, Inc.
 
@@ -36,26 +36,9 @@ Additional notes:
   * Reduce the number of form fields, if possible
   * In Coaching Info Section, change font-weight of text from thin to regular
 
-# School Landing Page, Wireframe for Testive, Inc.
-
-[School Landing Page Wireframe](wireframes/school_landing_page/index.html)
-
-This wireframe was intended as version 1 of the HTML/SCSS associated with the School Landing Page Mockup (please read the section above for more context of the School Landing Page Mockup). 
-
-Additional notes:
-
-* This wireframe is not responsive. The landing page would only be accessed on school computers and not on smaller handheld devices. 
-
-* After the form is submitted in the hero, a thank you message appears in place of the "sign up" button. In this wireframe, the signup form is not yet functional.
- 
-* In Software Info section, the gray box is a placeholder for a video that was not yet created. The size the gray box was based on the sizes of similar videos featured on the Testive website. 
-
-* In the Coaching Info section, the "learn more" button does not linked to another page because it did not exist at this time. 
-
 # School Analytics, Mockup for Testive, Inc.
 
-[School Analytics Mockup](high_fidelity_mockups/school_analytics.pdf)
-[School Analytics Mockup Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf)
+[School Analytics Mockup](high_fidelity_mockups/school_analytics.pdf), [School Analytics Mockup Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf)
 
 This mockup was for a new product intended for teachers working with high school students preparing for the SAT/ACT. The purpose of the dashboard was to give teachers the ability to track progress based on a variety of group breakdowns: All students, students from a certain year, and individual students. 
 
@@ -98,3 +81,19 @@ Additional notes:
   * Reverse the direction of the  arrows on the sidebar so that it makes more sense
 
   * Create an extra row for the “collapse” arrow on the expanded sidebar
+
+# School Landing Page, Wireframe for Testive, Inc.
+
+[School Landing Page Wireframe](wireframes/school_landing_page/index.html)
+
+This wireframe was intended as version 1 of the HTML/SCSS associated with the School Landing Page Mockup (please read the section above for more context of the School Landing Page Mockup). 
+
+Additional notes:
+
+* This wireframe is not responsive. The landing page would only be accessed on school computers and not on smaller handheld devices. 
+
+* After the form is submitted in the hero, a thank you message appears in place of the "sign up" button. In this wireframe, the signup form is not yet functional.
+ 
+* In Software Info section, the gray box is a placeholder for a video that was not yet created. The size the gray box was based on the sizes of similar videos featured on the Testive website. 
+
+* In the Coaching Info section, the "learn more" button does not linked to another page because it did not exist at this time. 
