@@ -38,7 +38,7 @@ Additional notes:
 
 # School Landing Page, Wireframe for Testive, Inc.
 
-[School Landing Page Mockup](wireframes/school_landing_page.html)
+[School Landing Page Wireframe](wireframes/school_landing_page/index.html)
 
 This wireframe was intended as version 1 of the HTML/SCSS associated with the School Landing Page Mockup (please read the section above for more context of the School Landing Page Mockup). 
 
@@ -55,6 +55,7 @@ Additional notes:
 # School Analytics, Mockup for Testive, Inc.
 
 [School Analytics Mockup](high_fidelity_mockups/school_analytics.pdf)
+[School Analytics Mockup Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf)
 
 This mockup was for a new product intended for teachers working with high school students preparing for the SAT/ACT. The purpose of the dashboard was to give teachers the ability to track progress based on a variety of group breakdowns: All students, students from a certain year, and individual students. 
 
@@ -74,9 +75,9 @@ Additional notes:
     
     * Clicking on the person icon at the bottom renders a modal that allows the user to choose a specific student (in [School Analytics Mockup Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf), top right screenshot). 
     
-    * The arrow on the top row expands the sidebar (in [School Analytics Mockup  Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf), top left screenshot). In the expanded sidebar, a new row appears at the bottom, allowing the user to create a custom group of students. Once “create a new group” is selected, a modal appears (in [School Analytics Mockup Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf), bottom left screenshot).
+    * The arrow on the top row expands the sidebar (in School Analytics Mockup  Extras, top left screenshot). In the expanded sidebar, a new row appears at the bottom, allowing the user to create a custom group of students. Once “create a new group” is selected, a modal appears (in School Analytics Mockup  Extras, bottom left screenshot).
 
-    * The top navy row prompts the user to type the name of the custom group. There are two ways to search for students: with the search bar, or by scrolling an alphabetical list of all students or students in a certain year. After more than one student is selected, the user clicks the “review” button, and the modal flips from right to left, revealing the review state (in [School Analytics Mockup Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf), bottom right screenshot). Here, the user can review the name and student list of the custom group. The user can either click “edit,” which flips the list back to the first modal, or save, which saves the new group.
+    * The top navy row prompts the user to type the name of the custom group. There are two ways to search for students: with the search bar, or by scrolling an alphabetical list of all students or students in a certain year. After more than one student is selected, the user clicks the “review” button, and the modal flips from right to left, revealing the review state (in School Analytics Mockup  Extras, bottom right screenshot). Here, the user can review the name and student list of the custom group. The user can either click “edit,” which flips the list back to the first modal, or save, which saves the new group.
     
   * Data Sections: The three main data sections are Performance, Questions Practiced, and Student Engagement. Each section can show SAT or ACT data by clicking the dropdown arrow at the top of each section. 
 
