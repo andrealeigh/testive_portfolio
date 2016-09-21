@@ -98,17 +98,28 @@ Additional notes:
 
 * In the Coaching Info section, the "learn more" button does not linked to another page because it did not exist at this time. 
 
-# School Home Page, Wireframe for Testive, Inc.
+# Testive Home Page, Wireframe for Testive, Inc.
 
-[School Home Page Wireframe](wireframes/school_home_page/index.html)
+[Testive Home Page Wireframe](wireframes/school_home_page/index.html)
 
-This wireframe was intended as version 1 of the HTML/SCSS associated with Testive's new home page. It was an overhaul of the current home page and went through multiple pen/paper and high fidelity mockups.
+This wireframe was intended as version 1 of the HTML/SCSS associated with Testive's new home page. It was a design and content overhaul of the current home page. I collaborated with Marketing and Sales on content and design. The home page went through multiple pen/paper and high fidelity mockups, which was reviewed and approved by Marketing/Sales before the wireframe was built.
 
 Additional notes:
 
-* Certain sections of the wireframe are not responsive, such as the navbar and the email form row within "Free Resources." The navbar in this wireframe was a placeholder for a responsive widget on Wordpress (where the Testive website was hosted). The media queries for the row with the form was also not fleshed out due to a pending decision of whether the form would be custom built or a Hubspot widget. 
+* Most of the wireframe is responsive except for the navbar and the email form row within the Free Resources section. The navbar in this wireframe was a placeholder for an existing responsive widget on Wordpress (where the Testive website is hosted). The media queries for the row with the form was also not fleshed out due to a pending decision on whether the form would be custom built or exist as a Hubspot widget. 
 
-* Under "Testive will show you the smart way to prep," the navy box was a placeholder for video not yet created. The size the navy box was based on the sizes of similar videos featured on the Testive website. 
+* UI elements: The alternating navy and white rows are consistent with Testive’s style guide, as well as the border-radius of the buttons and their title case text, the Testive logo, and the hex values of navy, orange, and blue.
+ 
+* Sections:
+  * Navbar: Shows Testive logo, multiple links to other pages on the website, and a "Get in Touch" button that links to the footer of the home page. The same navbar persists as a responsive widget on every page of the Wordpress site. 
 
-* Under "Let's play a game called 'The Problems with Test Prep,'" the functionality of the flip cards were built with Javascript. I paired with a front-end developer to create this functionality. 
+  * Hero: Features centered text against a navy background. The second line features a heavier font-weight and an orange color, tying in the orange from the button and the Testive logo in the navbar.
+ 
+  * "Testive will show you the smart way to prep:" Features a video and a testimonial. The title of the section has a partially blue color, which introduces Testive's newest color, shown more in the next section, that is meant to highlight informational content. The navy box was a placeholder for a video not yet created. The size the navy box was based on the sizes of similar videos featured on the Testive website. The testimonial uses different font-sizes, font-weights, and line-height. The largest font-size, font-weight, and line-weight was chosen for the first two sentences of the testimonial in order to encourage the user to start reading. The rest of the testimonial uses a smaller font-size/font-weight; a heavier font-weight for the author of the testimonial is used for visual contrast. 
+  
+  * Free Resources: The purpose of this section is to offer the user free popular content as a starting point to learn about test prep and engage with Testive. Offers three resources regarding SAT/ACT prep, which are visualized with icons and titles. The icon for the Ebook is a custom icon I made, while the other two are from the Noun Project. The bottom row shows a message: "Stay in the loop! Sign up for tips, special offers and helpful reminders" as well as an email form. 
+  
+  * "Let's play a game called 'The Problems with Test Prep:'" The purpose of this section was made for the type of user who is familiar with test prep and has specific questions and/or reservations about paying a company for online SAT/ACT help. The six questions were chosen based on feedback from Testive's sales representatives, and the answers resulted from collaboration from Sales, Marketing, and Product. The idea for the flip cards were proposed as a solution to the question: "How can we make boring content about test prep a little more fun?" I paired with a front-end developer to create the functionality of the flip cards in Javascript.
+  
+  * Footer: Lists a variety of news logo in which Testive has received PR in order to establish authenticity of the company. The next row encourages the user to contact Testive with use of "Don't stress! Contact Us" text, the mainline number, and two buttons for the user to schedule a call or live chat online. In this wireframe, the buttons are not yet linked due to the call scheduler and online chat existing as a widget within Wordpress. The last row features a sitemap of Testive's website and links to social media. The footer persists as a responsive widget on every page of the Wordpress site, allowing the user with easy access to multiple ways to contact Testive. This was a vast improvement over Testive's old footer, which did not feature straightfoward contact information. 
 
