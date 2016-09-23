@@ -1,8 +1,8 @@
 # Testive Portfolio
 
-This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups and two wireframes in coded in HTML/SCSS. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
+This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups, a color guide, and two wireframes in coded in HTML/SCSS. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
 
-# School Landing Page, Mockup for Testive, Inc.
+# School Landing Page, Mockup
 
 [School Landing Page Mockup](high_fidelity_mockups/school_landing_page.pdf)
 
@@ -36,7 +36,7 @@ Additional notes:
   * Reduce the number of form fields, if possible
   * In Coaching Info Section, change font-weight of text from thin to regular
 
-# School Analytics, Mockup for Testive, Inc.
+# School Analytics, Mockup
 
 [School Analytics Mockup](high_fidelity_mockups/school_analytics.pdf), [School Analytics Mockup Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf)
 
@@ -82,7 +82,11 @@ Additional notes:
 
   * Create an extra row for the “collapse” arrow on the expanded sidebar
 
-# School Landing Page, Wireframe for Testive, Inc.
+# Testive Color Guide
+
+This was a style guide I made after I noticed that Testive's Development/Product team and Marketing team were using varied hex values for colors. Since I was the only official designer at Testive, there were many occasions where developers and marketers were creating visual content. In order to encourage standardized usage of colors across Testive's website, app, and marketing tools, I created a style guide with specific hex values, names for each color, and suggested use cases. I wanted to keep the style guide light and engaging, and be warned: there is an expletive in one of the title colors (right or wrong, swearing was common within internal documents). In addition to suggested use cases, I added a few informational bullet points called "General Color Advice." The bullet points were intended to provide a starting point and a larger discussion of Testive's visual style. 
+
+# School Landing Page, Wireframe
 
 [School Landing Page Wireframe](wireframes/school_landing_page/index.html)
 
@@ -98,9 +102,9 @@ Additional notes:
 
 * In the Coaching Info section, the "learn more" button does not linked to another page because it did not exist at this time. 
 
-# Testive Home Page, Wireframe for Testive, Inc.
+# Testive Home Page, Wireframe
 
-[Testive Home Page Wireframe](wireframes/school_home_page/index.html)
+[Testive Home Page Wireframe] (wireframes/school_home_page/index.html)
 
 This wireframe was intended as version 1 of the HTML/SCSS associated with Testive's new home page. It was a design and content overhaul of the current home page. I collaborated with Marketing and Sales on content and design. The home page went through multiple pen/paper and high fidelity mockups, which was reviewed and approved by Marketing/Sales before the wireframe was built.
 
