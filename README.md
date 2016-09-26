@@ -1,6 +1,14 @@
 # Testive Portfolio
 
-This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups, a color guide, two wireframes in coded in HTML/SCSS, and two examples of modals created within the Testive app. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
+This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups, a color guide, two wireframes coded in HTML/SCSS, and two examples of modals created within the Testive app. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
+
+# Overview
+* [School Landing Page, Mockup](#school-landing-page-mockup)
+* [School Analytics, Mockup](#school-analytics-mockup) 
+* [Testive Color Guide](#testive-color-guide)
+* [School Landing Page, Wireframe](#school-landing-page-wireframe)
+* [Testive Home Page, Wireframe](#testive-home-page-wireframe)
+* [Testive App Modals, Screenshots](#testive-app-modals-screenshots)
 
 # School Landing Page, Mockup
 
@@ -106,7 +114,7 @@ Additional notes:
 
 # Testive Home Page, Wireframe
 
-[Testive Home Page Wireframe] (wireframes/school_home_page/index.html)
+[Testive Home Page Wireframe] (wireframes/testive_home_page/index.html)
 
 This wireframe was intended as version 1 of the HTML/SCSS associated with Testive's new home page. It was a design and content overhaul of the current home page. I collaborated with Marketing and Sales on content and design. The home page went through multiple pen/paper and high fidelity mockups, which was reviewed and approved by Marketing/Sales before the wireframe was built.
 
@@ -129,7 +137,7 @@ Additional notes:
   
   * Footer: Lists a variety of news logos in which Testive has received PR, which establishes authenticity of the company. The next row encourages the user to contact Testive via a "Don't stress! Contact Us" tagline, the mainline number, and two buttons for the user to schedule a call or live chat online. In this wireframe, the buttons are not yet linked due to the call scheduler and online chat existing as a widget within Wordpress. The last row features a sitemap of Testive's website and links to social media. The footer persists as a responsive widget on every page of the Wordpress site, allowing the user with easy access to multiple ways to contact Testive. This was a vast improvement over Testive's old footer, which did not feature straightfoward contact information. 
 
-# Testive App Modals
+# Testive App Modals, Screenshots
 
 [Testive App Modals] (testive_modals.pdf)
 
