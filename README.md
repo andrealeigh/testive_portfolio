@@ -92,13 +92,13 @@ Additional notes:
 
 # Testive Color Guide
 
-[Testive Color Guide] (testive_color_guide.pdf)
+[Testive Color Guide](testive_color_guide.pdf)
 
 This was a style guide I made after I noticed that Testive's Development/Product team and Marketing team were using varied hex values for colors. Since I was the only official designer at Testive, there were many occasions where developers and marketers were creating visual content. In order to encourage standardized usage of colors across Testive's website, app, and marketing tools, I created a style guide with specific hex values, names for each color, and suggested use cases. I wanted to keep the style guide light and engaging, and be warned: there is an expletive in one of the title colors (right or wrong, swearing was common within internal documents). In addition to suggested use cases, I added a few informational bullet points called "General Color Advice." The bullet points were intended to provide a starting point and a larger discussion of Testive's visual style. 
 
 # School Landing Page, Wireframe
 
-[School Landing Page Wireframe](wireframes/school_landing_page/index.html)
+[School Landing Page Wireframe](https://andrealeigh.github.io/testive_portfolio/school_landing_page/index.html) ([Source Code](wireframes/school_landing_page/index.html))
 
 This wireframe was intended as version 1 of the HTML/SCSS associated with the School Landing Page Mockup (please read the section above for more context of the School Landing Page Mockup). 
 
@@ -114,7 +114,7 @@ Additional notes:
 
 # Testive Home Page, Wireframe
 
-[Testive Home Page Wireframe] (wireframes/testive_home_page/index.html)
+[Testive Home Page Wireframe](https://andrealeigh.github.io/testive_portfolio/testive_home_page/index.html) ([Source Code](wireframes/testive_home_page/index.html))
 
 This wireframe was intended as version 1 of the HTML/SCSS associated with Testive's new home page. It was a design and content overhaul of the current home page. I collaborated with Marketing and Sales on content and design. The home page went through multiple pen/paper and high fidelity mockups, which was reviewed and approved by Marketing/Sales before the wireframe was built.
 
@@ -139,7 +139,7 @@ Additional notes:
 
 # Testive App Modals, Screenshots
 
-[Testive App Modals] (testive_modals.pdf)
+[Testive App Modals](testive_modals.pdf)
 
 This is a screenshot of two modals I designed within the Testive app. Once a month, I changed the modal within the Testive app to reflect the current month. The monthly changes included updating the text content, creating a custom image in Illustrator, and changing the text color to match the new background image. I created the original modal design and HTML/SCSS wireframe, and I paired with a developer for the Javascript functionality. 
 
