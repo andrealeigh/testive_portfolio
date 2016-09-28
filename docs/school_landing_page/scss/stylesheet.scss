@@ -1,0 +1,316 @@
+/* mixins for flexbox cross-browser compatibilty */
+
+@mixin flexbox-display {
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
+
+@mixin flex-align-items-center {
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+@mixin flex-align-items-baseline {
+    -webkit-align-items: baseline;
+    -ms-align-items: baseline;
+    align-items: baseline;
+}
+
+@mixin flex-direction-column {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@mixin flex-direction-row {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+@mixin flex-justify-content-center {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+@mixin flex-justify-content-flex-end {
+    -webkit-justify-content: flex-end;
+    -ms-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+@mixin flex-justify-content-space-between {
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+}
+
+/*  global styles  */
+
+body {
+    @include flexbox-display;
+    @include flex-direction-column;
+    background-color: #ffffff;
+    color: #2C3E50;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+@mixin dark-stripes {
+    color: #ffffff;
+    background-color: #2C3E50;
+}
+
+@mixin section-padding {
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 2em;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+h5 {
+    font-size: .85em;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+
+p {
+    font-size: 1.15em;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight:700;
+}
+.bold-orange {
+    color: #F7931E;
+    font-weight:700;
+}
+
+.logo {
+    width: 125px;
+}
+
+/* section styles */
+
+.hero {
+    @include dark-stripes;
+    @include flexbox-display;
+    @include flex-direction-column;
+    position: relative;
+    z-index: 0;
+    .USA {
+        left: 30px;
+        position: absolute;
+        top: -45px;
+        max-width: 900px;
+        z-index: 1;
+    }
+
+    .nav {
+        @include flex-align-items-center;
+        @include flexbox-display;
+        @include flex-direction-row;
+        @include flex-justify-content-space-between;
+        border-bottom: solid 1px white;
+        padding-bottom: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+        z-index: 2;
+        .nav-right-links {
+            a:last-of-type {
+                color: #F7931E;
+                margin-left: 40px;
+            }
+            a:hover {
+                color: #29abe2;
+            }
+        }
+
+    }
+    .hero-content {
+        @include flex-align-items-center;
+        @include flexbox-display;
+        @include flex-direction-row;
+        @include flex-justify-content-space-between;
+        @include section-padding;
+        padding-left: 15%;
+        padding-right: 15%;
+        z-index: 2;
+        .tag-line {
+            @include flex-align-items-center;
+            @include flexbox-display;
+            @include flex-direction-column;
+        }
+        .form {
+            @include flexbox-display;
+            @include flex-direction-column;
+        }
+        form {
+            margin: 0 auto;
+        }
+        select {
+            background-color: #ffffff;
+            border: 10px solid #ffffff;
+            box-sizing: content-box;
+            color: #F7931E;
+            font-size: .85em;
+            padding: 10px;
+            width: 200px;
+
+        }
+        input {
+            border: 1.5px solid #ffffff;
+            border-radius: 5px;
+            padding: 12px 10px;
+            width: 200px;
+
+        }
+        .form-button {
+            background-color: #F7931E;
+            border-radius: 7px;
+            color: #ffffff;
+            cursor: pointer;
+            padding: 5px;
+            margin: 20px auto 0 auto;
+            text-align: center;
+            width: 100px;
+            &:hover {
+                background-color: #29abe2;
+            }
+        }
+    }
+}
+
+.software {
+    @include flexbox-display;
+    @include flex-direction-column;
+    @include section-padding;
+    .software-content {
+        @include flexbox-display;
+        @include flex-direction-row;
+        @include flex-justify-content-space-between;
+        max-width: 950px;
+    }
+    .video {
+        background-color: #E8E6E2;
+        height: 250px;
+        width: 400px;
+    }
+    ul {
+        font-size: 18px;
+        max-width: 475px;
+        position: relative;
+    }
+    li {
+        padding-bottom: 15px;
+    }
+    li:before {
+        background-image: url('../images/smiley.svg');
+        background-size:contain;
+        content:'';
+        height: 13px;
+        left: -20px;
+        margin-top: 7px;
+        position:absolute;
+        width: 13px;
+    }
+}
+
+.free-students {
+    @include dark-stripes;
+    @include flexbox-display;
+    @include flex-direction-column;
+    @include section-padding;
+    .free-students-info {
+        @include flexbox-display;
+        @include flex-direction-row;
+        @include flex-align-items-baseline;
+    }
+    .info-column {
+        @include flexbox-display;
+        @include flex-direction-column;
+        @include flex-align-items-center;
+        padding: 20px;
+        max-width: 475px;
+    }
+    .info-icon-left {
+        width: 100px;
+    }
+    .info-icon {
+        width: 50px;
+    }
+
+}
+
+.coaching {
+    @include flexbox-display;
+    @include flex-direction-column;
+    @include section-padding;
+    p {
+        font-size: 1.35em;
+        font-weight: 400;
+    }
+    p:first-of-type {
+        max-width: 570px;
+    }
+    p:last-of-type {
+        max-width: 455px;
+    }
+    .coaching-button {
+        background-color: #F7931E;
+        border-radius: 7px;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 1.15em;
+        padding: 10px;
+        margin: 20px auto;
+        text-align: center;
+        width: 135px;
+        &:hover {
+            background-color: #29abe2;
+        }
+    }
+
+}
+
+.footer {
+    @include dark-stripes;
+    @include flexbox-display;
+    @include flex-justify-content-flex-end;
+    padding-bottom: 15px;
+    padding-right: 2.5%;
+    padding-top: 15px;
+
+}
