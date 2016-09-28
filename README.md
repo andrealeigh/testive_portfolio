@@ -1,6 +1,14 @@
 # Testive Portfolio
 
-This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups, a color guide, and two wireframes in coded in HTML/SCSS. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
+This repo features projects I worked on as a UX/UI designer at Testive, Inc., including two high-fidelity mockups, a color guide, two wireframes coded in HTML/SCSS, and two examples of modals created within the Testive app. Below are some notes for each project; they are intended to be read alongside each mockup or wireframe. 
+
+# Overview
+* [School Landing Page, Mockup](#school-landing-page-mockup)
+* [School Analytics, Mockup](#school-analytics-mockup) 
+* [Testive Color Guide](#testive-color-guide)
+* [School Landing Page, Wireframe](#school-landing-page-wireframe)
+* [Testive Home Page, Wireframe](#testive-home-page-wireframe)
+* [Testive App Modals, Screenshots](#testive-app-modals-screenshots)
 
 # School Landing Page, Mockup
 
@@ -84,6 +92,8 @@ Additional notes:
 
 # Testive Color Guide
 
+[Testive Color Guide] (testive_color_guide.pdf)
+
 This was a style guide I made after I noticed that Testive's Development/Product team and Marketing team were using varied hex values for colors. Since I was the only official designer at Testive, there were many occasions where developers and marketers were creating visual content. In order to encourage standardized usage of colors across Testive's website, app, and marketing tools, I created a style guide with specific hex values, names for each color, and suggested use cases. I wanted to keep the style guide light and engaging, and be warned: there is an expletive in one of the title colors (right or wrong, swearing was common within internal documents). In addition to suggested use cases, I added a few informational bullet points called "General Color Advice." The bullet points were intended to provide a starting point and a larger discussion of Testive's visual style. 
 
 # School Landing Page, Wireframe
@@ -104,7 +114,7 @@ Additional notes:
 
 # Testive Home Page, Wireframe
 
-[Testive Home Page Wireframe] (wireframes/school_home_page/index.html)
+[Testive Home Page Wireframe] (wireframes/testive_home_page/index.html)
 
 This wireframe was intended as version 1 of the HTML/SCSS associated with Testive's new home page. It was a design and content overhaul of the current home page. I collaborated with Marketing and Sales on content and design. The home page went through multiple pen/paper and high fidelity mockups, which was reviewed and approved by Marketing/Sales before the wireframe was built.
 
@@ -127,3 +137,10 @@ Additional notes:
   
   * Footer: Lists a variety of news logos in which Testive has received PR, which establishes authenticity of the company. The next row encourages the user to contact Testive via a "Don't stress! Contact Us" tagline, the mainline number, and two buttons for the user to schedule a call or live chat online. In this wireframe, the buttons are not yet linked due to the call scheduler and online chat existing as a widget within Wordpress. The last row features a sitemap of Testive's website and links to social media. The footer persists as a responsive widget on every page of the Wordpress site, allowing the user with easy access to multiple ways to contact Testive. This was a vast improvement over Testive's old footer, which did not feature straightfoward contact information. 
 
+# Testive App Modals, Screenshots
+
+[Testive App Modals] (testive_modals.pdf)
+
+This is a screenshot of two modals I designed within the Testive app. Once a month, I changed the modal within the Testive app to reflect the current month. The monthly changes included updating the text content, creating a custom image in Illustrator, and changing the text color to match the new background image. I created the original modal design and HTML/SCSS wireframe, and I paired with a developer for the Javascript functionality. 
+
+The first modal screenshot shows where the modal sits in app (on the bottom left of the screen). The "x" minimizes the modal so that the top modal title is only visible. The theme of the first modal is "holiday," and the theme of the second modal is "spring." 
