@@ -12,7 +12,7 @@ This repo features projects I worked on as a UX/UI designer at Testive, Inc., in
 
 # School Landing Page, Mockup
 
-[School Landing Page Mockup](high_fidelity_mockups/school_landing_page.pdf)
+[School Landing Page Mockup](https://github.com/andrealeigh/testive_portfolio/raw/master/high_fidelity_mockups/school_landing_page.pdf)
 
 This mockup was for a custom landing page for schools. The primary purpose of this page was to help students sign up to use Testive’s free SAT/ACT software, and the secondary purpose was to help teachers and their students become more familiar with Testive and their paid coaching program.  
 
@@ -28,7 +28,7 @@ Additional notes:
   * Nav Section: The navbar shows the Testive logo, a link to the Testive  software login page, and a link to a contact page. 
 
   * Hero with Signup Form: 
-    * Features a large CTA for students and teachers to create a free account. A student submitting the “sign up” button would be redirected to Testive’s student platform, and a teacher would be sent to Testive’s School Analytics platform (see [School Analytics Mockup](high_fidelity_mockups/school_analytics.pdf)).
+    * Features a large CTA for students and teachers to create a free account. A student submitting the “sign up” button would be redirected to Testive’s student platform, and a teacher would be sent to Testive’s School Analytics platform (see [School Analytics Mockup](https://github.com/andrealeigh/testive_portfolio/raw/master/high_fidelity_mockups/school_analytics.pdf)).
 
     * The map in the background, from The Noun Project, is meant to communicate the message that a school was joining a wider Testive network that spanned across the country. It also visually united the first two rows in the sections (the navbar and the hero) as well as the two columns in the hero (the large text on the left and the form on the right). 
 
@@ -46,7 +46,7 @@ Additional notes:
 
 # School Analytics, Mockup
 
-[School Analytics Mockup](high_fidelity_mockups/school_analytics.pdf), [School Analytics Mockup Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf)
+[School Analytics Mockup](https://github.com/andrealeigh/testive_portfolio/raw/master/high_fidelity_mockups/school_analytics.pdf), [School Analytics Mockup Extras](https://github.com/andrealeigh/testive_portfolio/raw/master/high_fidelity_mockups/school_analytics_mockup_extras.pdf)
 
 This mockup was for a new product intended for teachers working with high school students preparing for the SAT/ACT. The purpose of the dashboard was to give teachers the ability to track progress based on a variety of group breakdowns: All students, students from a certain year, and individual students. 
 
@@ -64,7 +64,7 @@ Additional notes:
   * Sidebar: 
     * Shows which group of students is currently being rendered in the data sections. In the mockup example, the data is filtered to students who are graduating in 2016. The user can also quickly select all students (”all”) or a different year. 
     
-    * Clicking on the person icon at the bottom renders a modal that allows the user to choose a specific student (in [School Analytics Mockup Extras](high_fidelity_mockups/school_analytics_mockup_extras.pdf), top right screenshot). 
+    * Clicking on the person icon at the bottom renders a modal that allows the user to choose a specific student (in [School Analytics Mockup Extras](https://github.com/andrealeigh/testive_portfolio/raw/master/high_fidelity_mockups/school_analytics_mockup_extras.pdf), top right screenshot). 
     
     * The arrow on the top row expands the sidebar (in School Analytics Mockup  Extras, top left screenshot). In the expanded sidebar, a new row appears at the bottom, allowing the user to create a custom group of students. Once “create a new group” is selected, a modal appears (in School Analytics Mockup  Extras, bottom left screenshot).
 
@@ -75,6 +75,7 @@ Additional notes:
     * Performance: Shows scores that can viewed in a variety of ways depending on which buttons are selected below the graph and whether “current” or “over time” is selected. In the mockup example, the current math scores are shown, as indicated by the light blue “math” button, the orange “current” radio button, and the title above the graph that changes depending on what is selection. 
 
     * Questions Practiced: Shows the number of questions being practiced over time in a variety of ways depending on which buttons are selected below the graph. In the mockup example, the graph shows how many math questions are being practiced. 
+    
     * Student Engagement: Shows which students have established a baseline score (i.e., which students have taken an initial full practice test), and which students have practiced in the past week. The two large lists shows the names of individual students and the percentage of total students in the selected category fall into YES or NO. The pie charts also give a quick visual of percentage of students in YES or NO. In the mockup example, 50% of students graduating in 2016 have established a baseline score, while 74% have answered practice questions in the past week. (The percentage in the right student list does not match the percentage in the bottom pie chart. See “Future Improvement” for more examples of how this mockup could be better.) 
 
 * Future Improvement: 
@@ -92,7 +93,7 @@ Additional notes:
 
 # Testive Color Guide
 
-[Testive Color Guide](testive_color_guide.pdf)
+[Testive Color Guide](https://github.com/andrealeigh/testive_portfolio/raw/master/testive_color_guide.pdf)
 
 This was a style guide I made after I noticed that Testive's Development/Product team and Marketing team were using varied hex values for colors. Since I was the only official designer at Testive, there were many occasions where developers and marketers were creating visual content. In order to encourage standardized usage of colors across Testive's website, app, and marketing tools, I created a style guide with specific hex values, names for each color, and suggested use cases. I wanted to keep the style guide light and engaging, and be warned: there is an expletive in one of the title colors (right or wrong, swearing was common within internal documents). In addition to suggested use cases, I added a few informational bullet points called "General Color Advice." The bullet points were intended to provide a starting point and a larger discussion of Testive's visual style. 
 
@@ -139,7 +140,7 @@ Additional notes:
 
 # Testive App Modals, Screenshots
 
-[Testive App Modals](testive_modals.pdf)
+[Testive App Modals](https://github.com/andrealeigh/testive_portfolio/raw/master/testive_modals.pdf)
 
 This is a screenshot of two modals I designed within the Testive app. Once a month, I changed the modal within the Testive app to reflect the current month. The monthly changes included updating the text content, creating a custom image in Illustrator, and changing the text color to match the new background image. I created the original modal design and HTML/SCSS wireframe, and I paired with a developer for the Javascript functionality. 
 
